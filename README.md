@@ -31,7 +31,6 @@ In the next step node 3 is processed and it has value smaller than his children 
 Nodes 2 and 1 are processed similar to node 4.
 </br>
 ![Min Heap step 4](img/min_heap_step4.png)
-
 ![Min Heap step 5](img/min_heap_step5.png)
 </br>
 Handling case of node 0 after exchange min_heapify rule isn't done so exchange method should be executed also for changed child.  After that min_heapify is fulfilled.
